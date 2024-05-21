@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #002a5e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+nav {
+    background-color: #004080;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1em;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.moto-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.moto-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.moto-card:hover {
+    transform: scale(1.05);
+}
+.moto-card img {
+    width: 100%;
+    height: auto;
+}
+.moto-card h2 {
+    font-size: 1.5em;
+    margin: 10px;
+    color: #333;
+}
+.moto-card p {
+    margin: 0 10px 10px;
+    color: #777;
+}
+.moto-card .price {
+    color: #e67e22;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px;
+}
